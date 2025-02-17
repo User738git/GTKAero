@@ -12,6 +12,8 @@ Copy the "Windows 7 Aero" folder and replace it with aerothemeplasma's icon fold
 To make the transparent background match your titlebar colour, go into GTKAero/gtk-3.0/windows.css
 and change the box-shadow to a matching colour.
 
+In thunar: align the toolbar buttons correctly and uncheck "menubar".
+
 ### Supported platforms:
 - Any GTK-based desktop
 - Cinnamon

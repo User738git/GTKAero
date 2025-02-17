@@ -14,6 +14,10 @@ and change the box-shadow to a matching colour.
 
 In Thunar: align the toolbar buttons correctly and uncheck "menubar".
 
+### Note:
+The commandbar is only a texture and is not clickable in any way. 
+Perhaps it might be possible to add such functionality in the future, but I am not considering it now.
+
 ### Supported platforms:
 - Any GTK-based desktop
 - Cinnamon

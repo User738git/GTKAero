@@ -6,6 +6,7 @@ A picture of thunar with this theme and icon theme.
 
 ### Installation:
 Put this repository into your "themes" folder and enable it in "Application style > Configure Gnome/GTK style" if using KDE.
+
 Copy the "Windows 7 Aero" folder and replace it with aerothemeplasma's icon folder (merge them together).
 
 To make the transparent background match your titlebar colour, go into GTKAero/gtk-3.0/windows.css

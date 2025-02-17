@@ -1,0 +1,256 @@
+/**********
+ * Thunar *
+ **********/
+
+/*Contributor notes:
+Please use two space indentions.
+Stack all related and child selectors and selector states into a logical hierarchy to a readable degree.
+Make sure that all changes made here are part of the Thunar application.
+*/
+
+.thunar #location-toolbar toolbutton button:not(:hover):not(:checked):not(:active),
+.thunar #back button,
+.thunar #location-toolbar #forward button {
+  border-color: transparent;
+  border-image: none;
+  box-shadow: none;
+  margin: 80px;
+  padding: 90px;
+}
+.thunar #location-toolbar toolbutton button:disabled {
+  background-color: grey;
+  background-image: linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, white), linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, darkslategrayS);
+  background-size: 2px 2px;
+  background-position: 0 0, 1px 1px; }
+
+.thunar #location-toolbar .path-bar button {
+  min-height: 16px;
+  min-width: 16px;
+  padding: 0px;
+  padding-left: 1px;
+  padding-right: 1px; }
+  .thunar #location-toolbar .path-bar button image {
+    margin-top: -2px;
+    margin-bottom: -2px; }
+
+.thunar toolbar toolitem entry image.left {
+  padding: 1px;
+  margin-right: 4px; }
+
+.thunar #location-toolbar {
+  height:  16px;
+  background-color: #b9d1ea;
+  margin-right: -5px;
+}
+
+.thunar toolbutton GtkImage {
+  margin: -20px;
+  padding: 40px;
+}
+
+.thunar, .thunar:checked, .thunar:disabled, .thunar:backdrop {
+  /* CHANGE TO PREFFERED COLOUR: */
+  box-shadow: inset #6d99ca 0px 0px 90px;
+  background-color: transparent;
+}
+
+
+
+.thunar entry {
+  height: 16px !important;
+  background-color: #da1731f3;
+  border-bottom: solid #a6b5c4 1px;
+  padding: 0px;
+  margin: 2px;
+  margin-bottom: 3px;
+  margin-right: -6px;
+  margin-left: 10px;
+}
+
+.thunar treeview {
+  padding-left: 3px;
+  font-weight: normal;
+  font-family: 'Segoe UI Symbol';
+  font-size: 12px;
+}
+
+.thunar grid.horizontal {
+  background-color: transparent;
+  background-image:
+    url("./thunar-assets/commandbarsmall.png"),
+    url("./thunar-assets/commandbarend.png"),
+    url("./thunar-assets/commandbartex.png");
+
+  background-repeat:
+    no-repeat, /* commandbarsmall repeats vertically */
+    no-repeat,
+    repeat-x; /* commandbartex repeats both x and y */
+
+  background-position:
+    0px 32px,
+    calc(100% - 0px) 32px,
+    0px 32px;
+
+  background-size:
+  auto 33px,
+  auto 33px,
+  auto 33px;
+
+    height:
+    93px,
+    93px,
+    93px,
+}
+
+
+
+
+
+.thunar toolbar {
+
+  background: 
+    url("./thunar-assets/handlewhitebig2.png"), linear-gradient(135deg, rgba(255, 255, 255, 0.35) 70px, transparent 100px), linear-gradient(225deg, rgba(255, 255, 255, 0.36) 70px, transparent 100px);
+  background-color: transparent;
+  background-repeat: no-repeat, repeat;
+  background-position: 0px 4px, 0px 0px;
+  border: 0;
+  padding-right: 0;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: -29px;
+  min-height: 10px;
+}
+
+.thunar toolbar:backdrop {
+
+  background: 
+    url("./thunar-assets/handlewhitebig2.png"), linear-gradient(135deg, rgba(255, 255, 255, 0.2) 70px, transparent 100px);
+  background-color: transparent;
+  background-repeat: no-repeat, repeat;
+  background-position: 0px 4px, 0px 0px;
+  border: 0;
+  padding-right: 0;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: -29px;
+  min-height: 10px;
+}
+
+.thunar forward {
+  margin: 40px;
+  padding: 40px;
+}
+
+.toolbar-cover-frame {
+  margin: 2px;
+  border-color: transparent;
+  background-color: transparent; }
+
+.thunar > grid > toolbar * { -gtk-icon-transform: scale(1); }
+.thunar notebook .standard-view {
+  padding: 0px;
+  border-top: 1px solid #9faec2;
+  border-bottom: 0px solid ;
+  border-left: 2px solid darkslategrayS;
+  border-right: 2px solid darkslategrayS;}
+.thunar notebook header tabs tab {
+  padding: 0px; }
+  .thunar notebook header tabs tab box {
+    padding: 0px;
+    margin-top: -2px;
+    margin-bottom: -2px; }
+  .thunar notebook header tabs tab button {
+    background: none;
+    border: none;
+    box-shadow: none; }
+    .thunar notebook header tabs tab button image {
+      padding: 0px;
+      margin-top: -1px;
+      margin-bottom: -2px; }
+
+    .thunar * { font-weight: 100 }
+    XfdesktopIconView.view { font-weight: 100 }
+
+.thunar statusbar {
+  margin-right: -9px;
+  margin-left: -9px;
+  padding: 0px; }
+  .thunar statusbar frame box {
+    margin-bottom: -3px;
+    margin-top: -3px; }
+    .thunar statusbar frame box label {
+      margin-top: 1px;
+      margin-bottom: -1px; }
+
+.thunar widget.view{
+  border-radius: 0px;
+}
+
+
+.thunar widget.view:selected {
+  background-color: #c6dffc;
+  border: 1px solid #84afe0;
+  border-radius: 0px; }
+  .thunar widget.view:selected:focus {
+    background: linear-gradient(#dceafc #c6dffc); }
+
+.treeview {
+  font-family: tahoma;
+  font-weight: 1px;
+}
+
+.caja-navigation-window > grid > paned > * {
+  border-top: 2px solid;
+  border-image: url("./thunar-assets/headerbox.png");
+  border-image-slice: 2 2 2 2
+}
+
+.thunar-sidebar .thunar-treeview,
+.thunar-sidebar .thunar-sidebar-title {
+  color: #000;
+  background-color: transparent;
+  font-weight: normal;
+  font-family: Tahoma;
+}
+
+.caja-side-pane scrolledwindow {
+  background-image: url("thunar-assets/wvleft.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.caja-navigation-window toolbar {
+  padding: 2px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: grey;
+  background-color: grey;
+  border-top: 0px solid;
+  border-bottom: 0px solid;
+  border-right: 2px solid;
+  border-left: 7px solid;
+  border-image: url("thunar-assets/fm_toolbar.png");
+  border-image-slice: 2 2 2 7; }
+
+.caja-navigation-window paned > box > paned > box > .horizontal {
+  margin: -4px;
+  margin-bottom: -2px;
+  padding: 3px;
+  padding-top: 4px;
+  border-top: 0px solid;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  border-left: 7px solid;
+  border-image: url("thunar-assets/fm_toolbar.png");
+  border-image-slice: 2 2 2 7; }
+
+.caja-navigation-window grid > paned > box > notebook widget > box {
+  padding: 1px;
+  border-color: black;
+  border: 1px solid darkslategray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-radius: 0px;
+  box-shadow: 1px 1px black inset, -1px -1px white inset; }

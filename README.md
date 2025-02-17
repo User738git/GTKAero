@@ -22,6 +22,10 @@ In thunar: align the toolbar buttons correctly and uncheck "menubar".
 - Xfce
 - KDE
 
+### Bugs + issues:
+- Not able to make the transparent background blurred.
+- Some buttons might look strange.
+
 ### Forked code:
 - [Windows 7 GTK](https://github.com/B00merang-Project/Windows-7)
 - [Chicago95](https://github.com/grassmunk/chicago95) (Some thunar code).

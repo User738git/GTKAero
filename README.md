@@ -1,10 +1,6 @@
-[![built-with-azurra-framework](https://github.com/B00merang-Project/B00merang-Project.github.io/blob/master/resources/badges/azurra/badge_smaller.png)](https://github.com/B00merang-Project/Azurra_framework)
-
 # Windows 7
-Linux theme based on the apperance of Windows 7
+A fork of ...
 
-### Preview
-![windows-7](https://b00merang-project.github.io/resources/screenshots/windows-7/blackcomb_1.png)
 
 ### Supported platforms
 - Any GTK-based desktop

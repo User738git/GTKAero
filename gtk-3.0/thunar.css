@@ -43,6 +43,11 @@ Make sure that all changes made here are part of the Thunar application.
   margin-right: -5px;
 }
 
+.thunar toolbutton button.flat.image-button:hover {
+  border:none;
+  box-shadow: none;
+}
+
 .thunar toolbutton GtkImage {
   margin: -20px;
   padding: 40px;
@@ -93,10 +98,6 @@ Make sure that all changes made here are part of the Thunar application.
     93px,
     93px,
 }
-
-
-
-
 
 .thunar toolbar {
 

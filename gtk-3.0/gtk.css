@@ -1249,6 +1249,18 @@ filechooserbutton:drop(active) {
     border-right: 2px #979797 ridge;
     }
 
+.background.csd.popup menuitem label {
+  box-shadow: -2px 3px #e0e0e0, -2px -3px #e0e0e0, -1px -3px #ffffff, -1px 3px #ffffff, 0px -3px #f0f0f0, 0px 3px #f0f0f0;
+  padding-left: 5px;
+  margin-left: 4px
+  }
+
+.background.csd.popup separator {
+  border-bottom: 1px solid #ffffff;
+  color: #e0e0e0;
+  background-color: #e0e0e0
+  }
+
 menu, .menu {
   margin: 4px;
   padding: 0;

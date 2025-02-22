@@ -466,11 +466,11 @@ entry {
   border-width: 1px;
   border-style: solid;
   border-color: shade(#F0F0F0, 0.75);
-  border-top-color: alpha(black, 0.4);
+  border-top-color: alpha(black, 0.4) !important;
   border-radius: 2px;
   color: #000000;
   caret-color: currentColor;
-  background: rgba(255,255,255,0.76)
+  background: rgba(255,255,255,0.77)
 }
 
   entry:selected, entry:selected:focus, entry selection, entry selection:focus {

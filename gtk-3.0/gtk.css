@@ -175,12 +175,34 @@ button {
 
   /* dialog button area and text buttons. */
 
-  .text-button {
-  margin: 3px;
-  padding: 1px 0px;
-  padding-left: 8px;
-  padding-right: 8px
+  button.text-button {
+    border-radius: 3px;
+    border-left: 2px groove #898c95;
+    border-bottom: 2px ridge #898c95;
+    margin: 3px;
+    padding: 1px 0px;
+    padding-left: 8px;
+    padding-right: 8px
   }
+  
+  button.default {
+  box-shadow: inset 0px 0px 2px 1px #6ae1fe;
+    border-radius: 3px;
+    border: 1px solid #8e8f8f;
+    border-bottom: 1px  solid #8e8f8f;
+    background: linear-gradient(#eaf6fd 49%, #bee6fd 44%, #a7d9f5)
+  }
+  
+  
+  button.text-button label {
+    margin-left: -10px;
+    margin-right: -10px
+  }
+  
+  .dialog-action-box {
+  margin-left: 20px;
+  }
+
 
   buttonbox.dialog-action-area.horizontal {
     padding-bottom: 10px;

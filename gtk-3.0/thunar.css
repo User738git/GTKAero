@@ -17,6 +17,12 @@ Make sure that all changes made here are part of the Thunar application.
   margin: 80px;
   padding: 90px;
 }
+
+.thunar, .thunar:checked, .thunar:disabled, .thunar:backdrop {
+  background-color: transparent;
+}
+
+
 .thunar #location-toolbar toolbutton button:disabled {
   background-color: grey;
   background-image: linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, white), linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, darkslategrayS);
@@ -65,6 +71,23 @@ Make sure that all changes made here are part of the Thunar application.
   margin-left: 10px;
 }
 
+.thunar scrolledwindow.shortcuts-pane {
+  border-left: 2px ridge #5f5f5f;
+  border-bottom: 2px ridge #5f5f5f;
+  margin-bottom: 7px;
+  box-shadow: -1px -60px 1px 1px black inset;
+  outline: 10px solid black;
+  text-decoration: none
+  
+  }
+  
+  .thunar scrolledwindow.standard-view {
+    border-left: 2px ridge #5f5f5f;
+    border-bottom: 2px ridge #5f5f5f;
+  border-right: 2px groove #5f5f5f;
+
+  }  
+
 .thunar treeview {
   padding-left: 3px;
   font-weight: normal;
@@ -75,9 +98,9 @@ Make sure that all changes made here are part of the Thunar application.
 .thunar grid.horizontal {
   background-color: transparent;
   background-image:
-    url("./thunar-assets/commandbarsmall.png"),
-    url("./thunar-assets/commandbarend.png"),
-    url("./thunar-assets/commandbartex.png");
+    url("./thunar-assets/commandbarsmall-border.png"),
+    url("./thunar-assets/commandbarend-border.png"),
+    url("./thunar-assets/commandbartex-border.png");
 
   background-repeat:
     no-repeat, /* commandbarsmall repeats vertically */
@@ -103,7 +126,7 @@ Make sure that all changes made here are part of the Thunar application.
 .thunar toolbar {
 
   background: 
-    url("./thunar-assets/handlewhitebig2.png"), linear-gradient(135deg, rgba(255, 255, 255, 0.35) 70px, transparent 100px), linear-gradient(225deg, rgba(255, 255, 255, 0.36) 70px, transparent 100px);
+    url("./thunar-assets/handlewhitebig2.png");
   background-color: transparent;
   background-repeat: no-repeat, repeat;
   background-position: 0px 4px, 0px 0px;
@@ -175,6 +198,19 @@ Make sure that all changes made here are part of the Thunar application.
     .thunar statusbar frame box label {
       margin-top: 1px;
       margin-bottom: -1px; }
+
+.thunar treeview header button,
+
+.thunar treeview header button:focus,
+.thunar treeview header button:hover {
+  color: #4c607a; /* Text color */
+  background-image: none; /* No background image */
+  background-color: #FFFFFF; /* Background color */
+  border-bottom: none; /* No bottom border */
+  border-right: solid 1px; /* Right border */
+  border-image: linear-gradient(180deg, #dfeaf7, #ffffff) 1; /* Gradient border */
+  padding: 4px; /* Padding */
+}
 
 .thunar widget.view{
   border-radius: 0px;

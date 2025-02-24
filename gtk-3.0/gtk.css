@@ -175,14 +175,26 @@ button {
 
   /* dialog button area and text buttons. */
 
-  button.text-button {
+  .thunar buttonbox button.text-button {
+    padding: 1px 0px;
     border-radius: 3px;
     border-left: 2px groove #898c95;
     border-bottom: 2px ridge #898c95;
-    margin: 3px;
+  }
+
+  .thunar buttonbox button.text-button label, .thunar buttonbox button.text-button:backdrop{
     padding: 1px 0px;
-    padding-left: 8px;
-    padding-right: 8px
+    border-radius: 3px;
+    border-left: 2px groove #898c95;
+    border-bottom: 2px ridge #898c95;
+  }
+
+  button.text-button {
+    padding: 1px 0px;
+    border-radius: 3px;
+    border-left: 2px groove #898c95;
+    border-right: 2px ridge #898c95;
+    border-bottom: 2px ridge #898c95;
   }
   
   button.default {
@@ -203,6 +215,12 @@ button {
   margin-left: 20px;
   }
 
+  .text-button {
+  margin: 3px;
+  padding: 1px 0px;
+  padding-left: 8px;
+  padding-right: 8px
+  }
 
   buttonbox.dialog-action-area.horizontal {
     padding-bottom: 10px;
@@ -669,13 +687,10 @@ treeview header button:last-child {
 
 treeview header button,
 treeview header button:focus {
-  color: #4c607a; /* Text color */
-  background-image: none; /* No background image */
-  background-color: #FFFFFF; /* Background color */
+  background: linear-gradient( #ffffff 45%, #f8f8f8 50%, #ececec); /* Background color */
   border-bottom: none; /* No bottom border */
-  border-right: solid 1px; /* Right border */
-  border-image: linear-gradient(180deg, #dfeaf7, #ffffff) 1; /* Gradient border */
-  padding: 4px; /* Padding */
+  border-right: ridge 2px #dddddd; /* Right border */
+  padding: 5px 6px 2px; /* Padding */
 }
 
 treeview header button:hover,

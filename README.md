@@ -9,8 +9,9 @@ Put this repository into your "themes" folder and enable it in "Application styl
 
 Copy the "Windows 7 Aero" folder and replace it with aerothemeplasma's icon folder (merge them together).
 
-To make the transparent background match your titlebar colour, go into GTKAero/gtk-3.0/windows.css
-and change the box-shadow to a matching colour.
+KDE: To make the transparent background turn into titlebar blur, go into KDE's settings and then go to Window Management > Desktop Effects > Aero Glass Blur > Configure... > Overrides. Type in "thunar" (without the marks) into the "Classes of windows to force blur" class.
+
+Disable inner borders: Go to Colours & Themes > Window Decorations and click on SMOD's "↻". Go to Window-Specific Overrides and add an exeption for thunar. Make sure to mark "hide window inner border"
 
 In Thunar: align the toolbar buttons correctly and uncheck "menubar" (Or "Ctrl" + "M").
 

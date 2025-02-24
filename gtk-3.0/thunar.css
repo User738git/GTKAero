@@ -71,9 +71,16 @@ Make sure that all changes made here are part of the Thunar application.
   margin-left: 10px;
 }
 
+.thunar stack {
+  border-right: 2px groove #70737a;
+  border-bottom: 2px groove #70737a;
+  box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 0.726), 0px 0px 0px 1px #5f5f5fd8;
+  }
+  
+
 .thunar scrolledwindow.shortcuts-pane {
-  border-left: 2px ridge #5f5f5f;
-  border-bottom: 2px ridge #5f5f5f;
+  border-left: 2px ridge #70737a;
+  border-bottom: 2px groove #70737a;
   margin-bottom: 7px;
   box-shadow: -1px -60px 1px 1px black inset;
   outline: 10px solid black;

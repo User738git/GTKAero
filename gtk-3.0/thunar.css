@@ -59,16 +59,29 @@ Make sure that all changes made here are part of the Thunar application.
   padding: 40px;
 }
 
+.thunar toolbutton button {
+  margin-right: 1px
+}
+
+.thunar toolbutton button:disabled {
+  opacity: 0;
+}
+
 .thunar entry {
   height: 16px !important;
   border-bottom: solid #a6b5c4 1px;
   border-top: solid 1px #525961;
+  border-left: solid 1px #909daa;
+  border-right: solid 1px #525961;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-position: 0 0;
   box-shadow: 0.5px 0px 0px 1px white inset;
   padding: 0px;
   margin: 2px;
   margin-bottom: 3px;
   margin-right: -6px;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .thunar stack {
@@ -146,12 +159,6 @@ Make sure that all changes made here are part of the Thunar application.
 }
 
 .thunar toolbar:backdrop {
-
-  background: 
-    url("./thunar-assets/handlewhitebig2.png"), linear-gradient(135deg, rgba(255, 255, 255, 0.2) 70px, transparent 100px);
-  background-color: transparent;
-  background-repeat: no-repeat, repeat;
-  background-position: 0px 4px, 0px 0px;
   border: 0;
   padding-right: 0;
   margin-top: 0px;
@@ -177,6 +184,10 @@ Make sure that all changes made here are part of the Thunar application.
   border-bottom: 0px solid ;
   border-left: 2px solid darkslategrayS;
   border-right: 2px solid darkslategrayS;}
+.thunar notebook header {
+  padding-right: 5px;
+  border-right: 2px groove #70737a
+  }
 .thunar notebook header tabs tab {
   padding: 0px; }
   .thunar notebook header tabs tab box {
@@ -207,13 +218,22 @@ Make sure that all changes made here are part of the Thunar application.
       margin-bottom: -1px; }
 
 .thunar treeview header button,
-
-.thunar treeview header button:focus,
-.thunar treeview header button:hover {
+.thunar treeview header button:focus{
   color: #4c607a; /* Text color */
   background-image: none; /* No background image */
   background-color: #FFFFFF; /* Background color */
-  border-bottom: none; /* No bottom border */
+  border: none;
+  border-right: solid 1px; /* Right border */
+  border-image: linear-gradient(180deg, #dfeaf7, #ffffff) 1; /* Gradient border */
+  padding: 4px; /* Padding */
+}
+
+
+.thunar treeview header button:hover {
+  color: #4c607a; /* Text color */
+  background-image: none; /* No background image */
+  background-color: #eff9ff; /* Background color */
+  border: none;
   border-right: solid 1px; /* Right border */
   border-image: linear-gradient(180deg, #dfeaf7, #ffffff) 1; /* Gradient border */
   padding: 4px; /* Padding */

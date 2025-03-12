@@ -178,37 +178,44 @@ button {
   .thunar buttonbox button.text-button {
     padding: 1px 0px;
     border-radius: 3px;
-    border-left: 2px groove #898c95;
     border-bottom: 2px ridge #898c95;
   }
 
   .thunar buttonbox button.text-button label, .thunar buttonbox button.text-button:backdrop{
     padding: 1px 0px;
     border-radius: 3px;
-    border-left: 2px groove #898c95;
     border-bottom: 2px ridge #898c95;
   }
 
   button.text-button {
     padding: 1px 0px;
     border-radius: 3px;
-    border-left: 2px groove #898c95;
-    border-right: 2px ridge #898c95;
+    border-left: 1px solid #898c95;
+    box-shadow: inset 1px 1px 0px 0px white;
     border-bottom: 2px ridge #898c95;
   }
+
+  button.text-button:hover {
+    border-left: 1px solid #898c95;
+    box-shadow: inset 1px 1px 0px 0px white;
+  }
   
-  button.default {
+  button.default, button.default:focus, button.text-button:focus  {
   box-shadow: inset 0px 0px 2px 1px #6ae1fe;
     border-radius: 3px;
     border: 1px solid #8e8f8f;
+    border-right: 1px solid #8e8f8f;
     border-bottom: 1px  solid #8e8f8f;
     background: linear-gradient(#eaf6fd 49%, #bee6fd 44%, #a7d9f5)
   }
   
+  button.default label {
+    border: none;
+  }
   
   button.text-button label {
-    margin-left: -10px;
-    margin-right: -10px
+    margin-left: 18px;
+    margin-right: 18px
   }
   
   .dialog-action-box {

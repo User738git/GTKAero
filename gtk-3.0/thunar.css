@@ -311,3 +311,12 @@ Make sure that all changes made here are part of the Thunar application.
   border-right: 1px solid gray;
   border-radius: 0px;
   box-shadow: 1px 1px black inset, -1px -1px white inset; }
+
+.thunar scrolledwindow.sidebar.frame {
+  border-left: 2px ridge #70737a;
+  border-bottom: 2px groove #70737a;
+  margin-bottom: 7px;
+  box-shadow: -1px -60px 1px 1px black inset;
+  outline: 10px solid black;
+  text-decoration: none
+}

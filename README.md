@@ -1,6 +1,7 @@
 # GTKAero
 A fork of B00MERANG Project's Windows 7 GTK theme made to integrate better with aerothemeplasma. Also makes thunar look more Windows 7's explorer.
 <img src="screenshots/save.png" alt="Desktop"/>
+
 A picture of thunar with this theme and icon theme.
 
 ## Installation
@@ -36,7 +37,8 @@ Download the required font from https://archive.org/download/segoe/Windows%207.z
 
 Configure the font and font size as shown in the screenshot: 
 <img src="screenshots/fonts.png" alt="Fonts"/>
-Fonts The setup should match this image.
+
+The setup should match this image.
 
 ### Thunar Configuration:
 

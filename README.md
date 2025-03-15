@@ -3,16 +3,52 @@ A fork of B00MERANG Project's Windows 7 GTK theme made to integrate better with 
 <img src="screenshots/save.png" alt="Desktop"/>
 A picture of thunar with this theme and icon theme.
 
-### Installation:
-Put this repository into your "themes" folder and enable it in "Application style > Configure Gnome/GTK style" if using KDE.
+## Installation
+To install the theme, follow these steps:
 
-Copy the "Windows 7 Aero" folder and replace it with aerothemeplasma's icon folder (merge them together).
+Place this repository in your "themes" folder:
 
-KDE: To make the transparent background turn into titlebar blur, go into KDE's settings and then go to Window Management > Desktop Effects > Aero Glass Blur > Configure... > Overrides. Type in "thunar" (without the marks) into the "Classes of windows to force blur" class.
+```cp -r . ~/.local/share/themes/GTKAero```
 
-Disable inner borders: Go to Colours & Themes > Window Decorations and click on SMOD's "↻". Go to Window-Specific Overrides and add an exeption for thunar. Make sure to mark "hide window inner border"
+Enable the theme in "Application style > Configure Gnome/GTK style" in KDE's System Settings.
 
-In Thunar: align the toolbar buttons correctly and uncheck "menubar" (Or "Ctrl" + "M").
+Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero).
+
+**OR:** use https://gitgud.io/Pupilstudent32/aero-icons.
+
+To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with the aerothemeplasma's icon folder.
+
+### KDE Configuration:
+
+Go to System Settings > Window Management > Desktop Effects > Aero Glass Blur > Configure... > Overrides.
+
+In the "Classes of windows to force blur" field, type "thunar" (without quotes).
+
+To disable inner borders:
+
+Go to Colours & Themes > Window Decorations and click on SMOD's "↻".
+
+Navigate to Window-Specific Overrides and ensure "hide window inner border" is marked.
+
+### Font Configuration
+
+Download the required font from https://archive.org/download/segoe/Windows%207.zip.
+
+Configure the font and font size as shown in the screenshot: 
+<img src="screenshots/fonts.png" alt="Fonts"/>
+Fonts The setup should match this image.
+
+### Thunar Configuration:
+
+Align the toolbar buttons correctly.
+
+Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
+
+### Optional: Picture Thumbnail Functionality
+
+If you miss image thumbnail functionality like in Dolphin, install tumbler using the following command:
+
+```sudo pacman -S tumbler```
 
 ### Note:
 The commandbar is only a texture and is not clickable in any way. 

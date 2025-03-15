@@ -10,7 +10,7 @@ Place this repository in your "themes" folder:
 
 ```cp -r . ~/.local/share/themes/GTKAero```
 
-Enable the theme in "Application style > Configure Gnome/GTK style" in KDE's System Settings.
+Enable the theme in "Application style > Configure Gnome/GTK Application style" in KDE's System Settings.
 
 Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero).
 

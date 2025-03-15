@@ -21,14 +21,19 @@ To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with 
 ### KDE Configuration:
 
 Go to System Settings > Window Management > Desktop Effects > Aero Glass Blur > Configure... > Overrides.
+
 In the "Classes of windows to force blur" field, type "thunar" (without quotes).
+
 To disable inner borders:
+
 Go to Colours & Themes > Window Decorations and click on SMOD's "↻".
+
 Navigate to Window-Specific Overrides and ensure "hide window inner border" is marked.
 
 ### Font Configuration
 
 Download the required font from https://archive.org/download/segoe/Windows%207.zip.
+
 Configure the font and font size as shown in the screenshot: 
 <img src="screenshots/fonts.png" alt="Fonts"/>
 Fonts The setup should match this image.
@@ -36,6 +41,7 @@ Fonts The setup should match this image.
 ### Thunar Configuration:
 
 Align the toolbar buttons correctly.
+
 Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
 
 ### Optional: Picture Thumbnail Functionality

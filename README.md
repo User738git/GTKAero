@@ -40,7 +40,8 @@ The setup should match this image.
 
 ### Thunar Configuration:
 
-Align the toolbar buttons correctly.
+Align the toolbar buttons correctly:\
+img src="screenshots/toolbarconfig.png" alt="toolb"/>
 
 Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
 

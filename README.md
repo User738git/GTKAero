@@ -6,28 +6,28 @@ A picture of thunar with this theme and icon theme.
 ## Installation
 To install the theme, follow these steps:
 
-    Place this repository in your "themes" folder:
+Place this repository in your "themes" folder:
 
-    Enable the theme in "Application style > Configure Gnome/GTK style" if using KDE.
-    Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero) or use https://gitgud.io/Pupilstudent32/aero-icons.
-        To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with the aerothemeplasma's icon folder.
+Enable the theme in "Application style > Configure Gnome/GTK style" if using KDE.
+Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero) or use https://gitgud.io/Pupilstudent32/aero-icons.
+To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with the aerothemeplasma's icon folder.
 ### KDE Configuration:
-    Go to System Settings > Window Management > Desktop Effects > Aero Glass Blur > Configure... > Overrides.
-    In the "Classes of windows to force blur" field, type "thunar" (without quotes).
-    To disable inner borders:
-        Go to Colours & Themes > Window Decorations and click on SMOD's "↻".
-        Navigate to Window-Specific Overrides and ensure "hide window inner border" is marked.
+Go to System Settings > Window Management > Desktop Effects > Aero Glass Blur > Configure... > Overrides.
+In the "Classes of windows to force blur" field, type "thunar" (without quotes).
+To disable inner borders:
+Go to Colours & Themes > Window Decorations and click on SMOD's "↻".
+Navigate to Window-Specific Overrides and ensure "hide window inner border" is marked.
 ### Font Configuration
 
-    Download the required font from https://archive.org/download/segoe/Windows%207.zip.
-    Configure the font and font size as shown in the screenshot: 
-    <img src="screenshots/fonts.png" alt="Fonts"/>
-    Fonts The setup should match this image.
+Download the required font from https://archive.org/download/segoe/Windows%207.zip.
+Configure the font and font size as shown in the screenshot: 
+<img src="screenshots/fonts.png" alt="Fonts"/>
+Fonts The setup should match this image.
 
 ### Thunar Configuration:
 
-    Align the toolbar buttons correctly.
-    Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
+Align the toolbar buttons correctly.
+Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
 
 ### Optional: Picture Thumbnail Functionality
 

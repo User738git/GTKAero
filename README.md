@@ -12,11 +12,10 @@ Place this repository in your "themes" folder:
 
 Enable the theme in "Application style > Configure Gnome/GTK Application style" in KDE's System Settings.
 
-Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero).
+Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero).\
+To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with the aerothemeplasma's icon folder.
 
 **OR:** use https://gitgud.io/Pupilstudent32/aero-icons.
-
-To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with the aerothemeplasma's icon folder.
 
 ### KDE Configuration:
 

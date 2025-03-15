@@ -39,6 +39,8 @@ The setup should match this image.
 
 ### Thunar Configuration:
 
+Set the sidebar icons to 16px in Thunar Settings > Sidepane.
+
 Align the toolbar buttons correctly:\
 <img src="screenshots/toolbarconfig.png" alt="toolb"/>
 

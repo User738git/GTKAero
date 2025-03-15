@@ -8,7 +8,7 @@ To install the theme, follow these steps:
 
 Place this repository in your "themes" folder:
 
-```cp -r . ~/.local/share/themes/GTKAero``
+```cp -r . ~/.local/share/themes/GTKAero```
 
 Enable the theme in "Application style > Configure Gnome/GTK style" if using KDE.
 Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero) or use https://gitgud.io/Pupilstudent32/aero-icons.

@@ -7,6 +7,7 @@ A picture of thunar with this theme and icon theme.
 To install the theme, follow these steps:
 
 Place this repository in your "themes" folder:
+
 ```cp -r . ~/.local/share/themes/GTKAero``
 
 Enable the theme in "Application style > Configure Gnome/GTK style" if using KDE.

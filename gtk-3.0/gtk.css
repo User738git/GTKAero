@@ -58,13 +58,13 @@ label selection {
 label.dim-label, label.separator, popover label.separator, popover.background label.separator, label:disabled {
   opacity: 0.55; }
 
-button {
+/*button {
   transition: border 100ms ease-in-out; }
 
 entry {
   transition: border 100ms ease-out; }
   entry:focus {
-    transition: border 100ms ease-in; }
+    transition: border 100ms ease-in; }*/
 
 notebook tab label, notebook .prelight-page, notebook .prelight-page label, notebook .active-page, notebook .active-page label {
   transition: all 200ms ease-in; }

@@ -71,4 +71,4 @@ Perhaps it might be possible to add such functionality in the future, but I am n
 ### Forked code:
 - [Windows 7 GTK](https://github.com/B00merang-Project/Windows-7)
 - [Chicago95](https://github.com/grassmunk/chicago95) (Some thunar code).
-- [aerothemeplasma](https://gitgud.io/wackyideas/aerothemeplasma/) (Icon theme).
+- [aerothemeplasma](https://gitgud.io/wackyideas/aerothemeplasma/) (Icon theme licensed under AGPLv3).

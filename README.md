@@ -25,7 +25,6 @@ It should be named "system-search-symbolic.png".\
 And copy this image to ~/.local/share/icons/Windows 7 Aero/actions/24/\
 <img src="https://gitgud.io/-/project/15338/uploads/1a3c709c13166d633531f56edd4c337a/view-refresh-symbolic.png" alt="Desktop"/>\
 It should be named "view-refresh-symbolic.png".\
-If this does not work, extract this tarball into ~/.local/share/icons without merging anything, and later apply it it in "System Settings" (called AeroIcons).\
 
 ### KDE Configuration:
 

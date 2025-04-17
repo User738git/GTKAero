@@ -18,6 +18,15 @@ To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with 
 **If the searchbar does not show properly:**\
 use https://gitgud.io/Pupilstudent32/aero-icons without merging anything.
 
+**If that did not specifically work:**\
+try to copy this image into ~/.local/share/icons/Windows 7 Aero/apps/24/:\
+<img src="https://gitgud.io/-/project/15338/uploads/442aea9eb9c79c02b92de6c265570fdb/system-search-symbolic.png" alt="Desktop"/>\
+It should be named "system-search-symbolic.png".\
+And copy this image to ~/.local/share/icons/Windows 7 Aero/actions/24/\
+<img src="https://gitgud.io/-/project/15338/uploads/1a3c709c13166d633531f56edd4c337a/view-refresh-symbolic.png" alt="Desktop"/>\
+It should be named "view-refresh-symbolic.png".\
+If this does not work, extract this tarball into ~/.local/share/icons without merging anything, and later apply it it in "System Settings" (called AeroIcons).\
+
 ### KDE Configuration:
 
 Go to System Settings > Window Management > Desktop Effects > Aero Glass Blur > Configure... > Overrides.

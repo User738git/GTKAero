@@ -75,7 +75,7 @@ Perhaps it might be possible to add such functionality in the future, but I am n
 
 ### Bugs + issues
 - Some buttons might look strange.
-- Not able to make the font in Thunar's sidebar normal or "not bold" yet.
+- Not able to make the [font in Thunar's sidebar normal or "not bold" yet.](https://forum.xfce.org/viewtopic.php?id=18246)
 
 ### Forked code:
 - [Windows 7 GTK](https://github.com/B00merang-Project/Windows-7)

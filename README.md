@@ -65,6 +65,8 @@ If you miss image thumbnail functionality like in Dolphin, install tumbler using
 The commandbar is only a texture and is not clickable in any way. 
 Perhaps it might be possible to add such functionality in the future, but I am not considering it now.
 
+If you are trying to find a Vista-variant of this project, check out [4194304's fork of this project](https://github.com/4194304/GTKVista).
+
 ### Supported platforms:
 - Any GTK-based desktop
 - Cinnamon

@@ -17,7 +17,7 @@ To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with 
 
 **If the searchbar does not show properly:**\
 use https://gitgud.io/Pupilstudent32/aero-icons without merging anything.\
-Enable the icon theme in settings (called Aero-Icons).
+Enable the icon theme in settings (called AeroIcons).
 
 **If that did not specifically work:**\
 try to copy this image into ~/.local/share/icons/Windows 7 Aero/apps/24/:\

@@ -23,7 +23,7 @@ Enable the icon theme in settings (called Aero-Icons).
 try to copy this image into ~/.local/share/icons/Windows 7 Aero/apps/24/:\
 <img src="https://gitgud.io/-/project/15338/uploads/442aea9eb9c79c02b92de6c265570fdb/system-search-symbolic.png" alt="Desktop"/>\
 It should be named "system-search-symbolic.png".\
-And copy this image to ~/.local/share/icons/Windows 7 Aero/actions/24/\
+And copy this image to ~/.local/share/icons/Windows 7 Aero/actions/24/:\
 <img src="https://gitgud.io/-/project/15338/uploads/1a3c709c13166d633531f56edd4c337a/view-refresh-symbolic.png" alt="Desktop"/>\
 It should be named "view-refresh-symbolic.png".\
 

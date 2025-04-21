@@ -56,7 +56,7 @@ Align the toolbar buttons correctly:\
 
 Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
 
-### Optional: Picture Thumbnail Functionality + Better drive integration
+### Optional: Picture Thumbnail Functionality + Better partition integration
 
 If you miss image thumbnail functionality like in Dolphin, install tumbler using the following command:
 

@@ -56,11 +56,15 @@ Align the toolbar buttons correctly:\
 
 Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
 
-### Optional: Picture Thumbnail Functionality
+### Optional: Picture Thumbnail Functionality + Better drive integration
 
 If you miss image thumbnail functionality like in Dolphin, install tumbler using the following command:
 
 ```sudo pacman -S tumbler```
+
+I would also recommend gvfs for better drive functionality:
+
+```sudo pacman -S gvfs```
 
 ### Note:
 The commandbar is only a texture and is not clickable in any way. 

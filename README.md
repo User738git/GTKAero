@@ -69,12 +69,12 @@ Perhaps it might be possible to add such functionality in the future, but I am n
 If you are trying to find a Vista-variant of this project, check out [4194304's fork of this project](https://github.com/4194304/GTKVista).
 
 ### Supported platforms:
-- Any GTK-based desktop
+- Mainly KDE
 - Cinnamon
 - Gnome
 - MATE
 - Xfce
-- KDE
+- Other GTK-based DEs.
 
 ### Bugs + issues
 - Some buttons might look strange.

@@ -4,7 +4,7 @@
   -GtkScrollbar-has-secondary-backward-stepper: false;
   -GtkScrollbar-has-secondary-forward-stepper: false;
   -GtkScrolledwindow-scrollbar-spacing: 0;
-  -GtkScrolledwindow-scrollbars-within-bevel: 1;
+  -GtkScrolledwindow-scrollbars-within-bevel: 0;
   -GtkTextView-error-underline-color: #CC0000;
   -GtkToolbutton-icon-spacing: 6;
   -GtkToolItemGroup-expander-size: 11;
@@ -1443,7 +1443,13 @@ modelbutton.flat, menuitem.button.flat, .menuitem.button.flat {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
 
     notebook {
-      padding: 0; }
+      padding: 0;
+      margin-top: 6px;
+    }
+    .thunar notebook {
+      padding: 0;
+      margin-top: 0px;
+    }
       notebook.frame {
         box-shadow: inset 5px 8px 0px 0px #fffc;
         background-color: #f0f0f0;
@@ -1494,7 +1500,8 @@ modelbutton.flat, menuitem.button.flat, .menuitem.button.flat {
           background-image: none;
           padding-left: 6px;
           margin-right: -4px;
-          margin-left: 0px
+          margin-left: 0px;
+          margin-top: -2px
         }
           notebook tab:checked:hover {
             background-color: #FFFFFF; }
@@ -1880,7 +1887,9 @@ scale {
 
 scrollbar {
   border: none;
-  background-color: shade(#F0F0F0, 0.9); }
+  background-color: shade(#F0F0F0, 0.9); 
+  margin: 0;
+}
   scrollbar trough {
     border: none;
     border-radius: 0; }
@@ -1966,7 +1975,7 @@ scrollbar {
           background-image: url("assets/stepper-up-hover.png"); }
   treeview ~ scrollbar.vertical {
     border-top: 1px solid shade(#F0F0F0, 0.75);
-    margin-top: -1px; }
+    margin-top: -25px; }
 
 separator {
   -gtk-icon-source: none;
@@ -3246,12 +3255,10 @@ UnityPanelWidget, .unity-panel {
     border-width: 0 1px;
     color: #FFFFFF; }
 
-    /*
-You can type here any CSS rule recognized by GTK+.
-You can temporarily disable this custom CSS by clicking on the “Pause” button above.
-
-Changes are applied instantly and globally, for the whole application.
-*/
+/* Annoying dotted lines by scrollbar.*/
+overshoot.bottom, overshoot.right, overshoot.left, overshoot.top, undershoot.bottom, undershoot.right, undershoot.left, undershoot.top{
+  background-image: none
+}
 
 filechooser box paned placessidebar viewport list row {
   margin-bottom: -4px;
@@ -3312,6 +3319,29 @@ filechooser box paned placessidebar viewport list row {
   -gtk-icon-source: -gtk-icontheme("process-working-symbolic");
   animation: playbackmenuitem_spinner 1s infinite linear;
   color: #CCE8FF; }
+
+/* Mate-system-monitor/taskmanager*/
+
+#mate-system-monitor scrolledwindow {
+  margin-bottom: -14px;
+  }
+  #mate-system-monitor treeview.view {
+  font-size: 8pt;
+  padding: 0px;
+  border-right: 1px solid #ebf8fc
+  }
+  #mate-system-monitor treeview.view button, #mate-system-monitor treeview.view button:backdrop {
+    border-bottom: 1px solid #c6c6c6
+  }
+  #mate-system-monitor treeview{
+  margin: -1px
+  }
+  #mate-system-monitor button.text-button{
+  margin-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 11.48px
+  }
 
 /* GTK NAMED COLORS - use responsibly! */
 /* widget text/foreground color */

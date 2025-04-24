@@ -1,6 +1,6 @@
 # GTKAero
-A fork of B00MERANG Project's Windows 7 GTK theme made to integrate better with aerothemeplasma. Also makes thunar look more Windows 7's explorer.
-<img src="screenshots/save.png" alt="Desktop"/>
+A fork of B00MERANG Project's Windows 7 GTK theme made to integrate better with [aerothemeplasma](https://gitgud.io/wackyideas/aerothemeplasma/). Also makes thunar look more Windows 7's explorer.\
+<img src="screenshots/save.png" alt="Desktop"/>\
 A picture of thunar with this theme and icon theme.
 
 ## Installation
@@ -10,13 +10,22 @@ Place this repository in your "themes" folder:
 
 ```cp -r . ~/.local/share/themes/GTKAero```
 
-Enable the theme in "Application style > Configure Gnome/GTK style" in KDE's System Settings.
+Enable the theme in "Application style > Configure Gnome/GTK Application style" in KDE's System Settings.
 
-Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero).
-
-**OR:** use https://gitgud.io/Pupilstudent32/aero-icons.
-
+Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero).\
 To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with the aerothemeplasma's icon folder.
+
+**If the searchbar does not show properly:**\
+use https://gitgud.io/Pupilstudent32/aero-icons without merging anything.\
+Enable the icon theme in settings (called AeroIcons).
+
+**If that did not specifically work:**\
+try to copy this image into ~/.local/share/icons/Windows 7 Aero/apps/24/:\
+<img src="https://gitgud.io/-/project/15338/uploads/442aea9eb9c79c02b92de6c265570fdb/system-search-symbolic.png" alt="Desktop"/>\
+It should be named "system-search-symbolic.png".\
+And copy this image to ~/.local/share/icons/Windows 7 Aero/actions/24/:\
+<img src="https://gitgud.io/-/project/15338/uploads/1a3c709c13166d633531f56edd4c337a/view-refresh-symbolic.png" alt="Desktop"/>\
+It should be named "view-refresh-symbolic.png".\
 
 ### KDE Configuration:
 
@@ -34,39 +43,48 @@ Navigate to Window-Specific Overrides and ensure "hide window inner border" is m
 
 Download the required font from https://archive.org/download/segoe/Windows%207.zip.
 
-Configure the font and font size as shown in the screenshot: 
-<img src="screenshots/fonts.png" alt="Fonts"/>
-Fonts The setup should match this image.
+Configure the font and font size as shown in the screenshot:\
+<img src="screenshots/fonts.png" alt="Fonts"/>\
+The setup should match this image.
 
 ### Thunar Configuration:
 
-Align the toolbar buttons correctly.
+Set the sidebar icons to 16px in Thunar Settings > Sidepane.
+
+Align the toolbar buttons correctly:\
+<img src="screenshots/toolbarconfig.png" alt="toolb"/>
 
 Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
 
-### Optional: Picture Thumbnail Functionality
+### Optional: Picture Thumbnail Functionality + Better partition integration
 
 If you miss image thumbnail functionality like in Dolphin, install tumbler using the following command:
 
 ```sudo pacman -S tumbler```
 
+I would also recommend gvfs for better drive functionality:
+
+```sudo pacman -S gvfs```
+
 ### Note:
 The commandbar is only a texture and is not clickable in any way. 
 Perhaps it might be possible to add such functionality in the future, but I am not considering it now.
 
+If you are trying to find a Vista-variant of this project, check out [4194304's fork of this project](https://github.com/4194304/GTKVista).
+
 ### Supported platforms:
-- Any GTK-based desktop
+- Mainly KDE
 - Cinnamon
 - Gnome
 - MATE
 - Xfce
-- KDE
+- Other GTK-based DEs.
 
 ### Bugs + issues
 - Some buttons might look strange.
-- Not able to make the font in Thunar's sidebar normal or "not bold" yet.
+- Not able to make the [font in Thunar's sidebar normal or "not bold" yet.](https://forum.xfce.org/viewtopic.php?id=18246)
 
 ### Forked code:
 - [Windows 7 GTK](https://github.com/B00merang-Project/Windows-7)
 - [Chicago95](https://github.com/grassmunk/chicago95) (Some thunar code).
-- [aerothemeplasma](https://gitgud.io/wackyideas/aerothemeplasma/) (Icon theme).
+- [aerothemeplasma](https://gitgud.io/wackyideas/aerothemeplasma/) (Icon theme licensed under AGPLv3).

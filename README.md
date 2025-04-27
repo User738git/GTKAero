@@ -13,6 +13,7 @@ Place this repository in your "themes" folder:
 Enable the theme in "Application style > Configure Gnome/GTK Application style" in KDE's System Settings.
 
 Move this icon theme to ~/.local/share/icons/: https://gitgud.io/Pupilstudent32/aero-icons, without merging anything.\
+
 Enable the icon theme in settings (called AeroIcons).
 
 **If that did not specifically work:**\

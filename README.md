@@ -12,11 +12,8 @@ Place this repository in your "themes" folder:
 
 Enable the theme in "Application style > Configure Gnome/GTK Application style" in KDE's System Settings.
 
-Merge the repository's "Windows 7 Aero" with aerothemeplasma's icon folder (~/.local/share/icons/Windows 7 Aero).\
-To merge the icon folders, copy the "Windows 7 Aero" folder and combine it with the aerothemeplasma's icon folder.
+Move this icon theme to ~/.local/share/icons/: https://gitgud.io/Pupilstudent32/aero-icons, without merging anything.\
 
-**If the searchbar does not show properly:**\
-use https://gitgud.io/Pupilstudent32/aero-icons without merging anything.\
 Enable the icon theme in settings (called AeroIcons).
 
 **If that did not specifically work:**\
@@ -82,7 +79,7 @@ If you are trying to find a Vista-variant of this project, check out [4194304's 
 
 ### Bugs + issues
 - Some buttons might look strange.
-- Not able to make the [font in Thunar's sidebar normal or "not bold" yet.](https://forum.xfce.org/viewtopic.php?id=18246)
+- Not yet possible to set the font in Thunar's sidebar headers to a normal (non-bold) style without modifying Thunar's source code. [See this discussion](https://forum.xfce.org/viewtopic.php?id=18246) for more details.
 
 ### Forked code:
 - [Windows 7 GTK](https://github.com/B00merang-Project/Windows-7)

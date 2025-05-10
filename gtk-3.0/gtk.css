@@ -173,6 +173,10 @@ button {
   background-image: linear-gradient( #f2f2f2 45%, #ebebeb 45%, #cfcfcf);
  }
 
+ buttonbox {
+  margin-bottom: 4px;
+ }
+
   /* dialog button area and text buttons. */
 
   .thunar buttonbox button.text-button {
@@ -657,15 +661,23 @@ list separator:backdrop {
 /* Treeview styles */
 treeview {
   -treeview-vertical-separator: 0; /* No vertical separator */
+  padding: 0px;
 }
 
 treeview.view:selected,
 treeview.view:selected:focus {
-  border-radius: 0; /* No border radius for selected view */
+  border: solid 1px #6cb3d4;
+  border-radius: 4px;
   color: #000000; /* Text color */
   box-shadow: inset 0 0 1px 0 shade(#CCE8FF, 0.87); /* Inner shadow effect */
   background-color: #CCE8FF; /* Background color for selected view */
-  background-image: linear-gradient(to bottom, shade(#CCE8FF, 1.02), shade(#CCE8FF, 0.98)); /* Gradient effect */
+  background-image: linear-gradient(to bottom, shade(#dcecfc, 1.02), shade(#cfe7f1, 0.98)); /* Gradient effect */
+}
+
+
+treeview:selected {
+  border: solid 1px #96d9f9;
+  border-radius: 4px;
 }
 
 treeview.view:drop(active) {
@@ -692,18 +704,31 @@ treeview header button:last-child {
   border-width: 0 0 1px 0; /* Bottom border for the last button */
 }
 
-treeview header button,
-treeview header button:focus {
+treeview header button:focus,
+treeview header button:focus:hover  {
+  color: #000000; /* Text color on hover */
+  background-image: linear-gradient(to bottom, #f2f9fc 44%, #d9eef7 45%);
+  padding-left: 4px;
+  padding-right: 3px;
+  margin-left: 1px;
+  box-shadow: 20px 20px 20px inset #96d9f9;
+  border: solid 1px #96d9f9;
+  border-top: none;
+}
+
+treeview header button {
   background: linear-gradient( #ffffff 45%, #f8f8f8 50%, #ececec); /* Background color */
-  border-bottom: none; /* No bottom border */
   border-right: ridge 2px #dddddd; /* Right border */
   padding: 5px 6px 2px; /* Padding */
 }
 
-treeview header button:hover,
-treeview header button:focus:hover {
+treeview header button:hover {
   color: #000000; /* Text color on hover */
-  background-color: alpha(#CCE8FF, 0.4); /* Background color on hover */
+  background-image: linear-gradient(to bottom, #f2f9fc 44%, #d9eef7 45%);
+  border: solid 1px #96d9f9;
+  padding-right: 3px;
+  border-top: none;
+  border-left: none;
 }
 
 treeview header button:hover:active,
@@ -1293,16 +1318,48 @@ filechooserbutton:drop(active) {
     border-right: 2px #979797 ridge;
     }
 
+    button.combo {
+      box-shadow: inset 1px 0px #ffffff, inset -1px -1px #ffffff ;
+      border-left: 2px #979797 solid;
+      border-right: 2px #979797 solid;
+      border-bottom: 2px #979797 solid;
+  }
+
 .background.csd.popup menuitem label {
   box-shadow: -2px 3px #e0e0e0, -2px -3px #e0e0e0, -1px -3px #ffffff, -1px 3px #ffffff, 0px -3px #f0f0f0, 0px 3px #f0f0f0;
+  border-right: 2px rigde black;
   padding-left: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-left: 4px
   }
 
+.background.csd.popup menuitem {
+
+  margin-top: 0px;
+  margin-bottom: 1px;
+  margin-left: 1px
+  }
+  
+.background.csd.popup menuitem:hover label {
+  box-shadow: none;
+  padding-left: 5px;
+  }
+
+
 .background.csd.popup separator {
   border-bottom: 1px solid #ffffff;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 29px;
   color: #e0e0e0;
   background-color: #e0e0e0
+  }
+
+.background.csd.popup {
+  border: solid 1px #979797;
+  box-shadow: inset 0 0 0 2px #f5f5f5;
+  background-color: #f1f1f1;
   }
 
 menu, .menu {
@@ -1313,7 +1370,7 @@ menu, .menu {
   color: #000000;
   background-color: #F0F0F0; }
   .csd menu, .csd .menu {
-    padding: 2px 0px;
+    padding: 1px 0px;
     border-radius: 0px;
     border: none; }
   menu > arrow, .menu > arrow {
@@ -1889,6 +1946,7 @@ scrollbar {
   border: none;
   background-color: shade(#F0F0F0, 0.9); 
   margin: 0;
+  margin-left: -3px;
 }
   scrollbar trough {
     border: none;
@@ -1973,8 +2031,11 @@ scrollbar {
         background-image: url("assets/stepper-up.png"); }
         scrollbar.vertical button.up:hover, scrollbar.vertical button.up:active {
           background-image: url("assets/stepper-up-hover.png"); }
-  treeview ~ scrollbar.vertical {
+  .thunar treeview ~ scrollbar.vertical {
     border-top: 1px solid shade(#F0F0F0, 0.75);
+    margin-top: -25px; }
+
+  #mate-system-monitor treeview ~ scrollbar.vertical {
     margin-top: -25px; }
 
 separator {
@@ -3328,20 +3389,17 @@ filechooser box paned placessidebar viewport list row {
   #mate-system-monitor treeview.view {
   font-size: 8pt;
   padding: 0px;
+  margin:-1px;
   border-right: 1px solid #ebf8fc
   }
   #mate-system-monitor treeview.view button, #mate-system-monitor treeview.view button:backdrop {
-    border-bottom: 1px solid #c6c6c6
+
   }
   #mate-system-monitor treeview{
-  margin: -1px
+  margin: -1px;
+  margin-left: 40px
   }
-  #mate-system-monitor button.text-button{
-  margin-bottom: 10px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  font-size: 11.48px
-  }
+
 
 /* GTK NAMED COLORS - use responsibly! */
 /* widget text/foreground color */

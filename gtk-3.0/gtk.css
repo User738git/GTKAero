@@ -659,10 +659,9 @@ list separator:backdrop {
 }
 
 /* Treeview styles */
-treeview {
-  -treeview-vertical-separator: 0; /* No vertical separator */
-  padding: 0px;
-}
+treeview.view {
+  padding: 0px}
+
 
 treeview.view:selected,
 treeview.view:selected:focus {

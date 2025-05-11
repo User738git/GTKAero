@@ -74,6 +74,11 @@ Make sure that all changes made here are part of the Thunar application.
 
  }
 
+ .thunar toolbutton .toggle {
+  margin-left: 2px;
+
+ }
+
 .thunar entry {
   height: 16px !important;
   border-bottom: solid #a6b5c4 1px;
@@ -89,7 +94,7 @@ Make sure that all changes made here are part of the Thunar application.
   margin: 2px;
   margin-bottom: 3px;
   margin-right: -6px;
-  margin-left: 7px;
+  margin-left: 8px;
 }
 
 .thunar stack {
@@ -103,10 +108,10 @@ Make sure that all changes made here are part of the Thunar application.
   border-left: 2px ridge #70737a;
   border-bottom: 2px groove #70737a;
   margin-bottom: 7px;
-  box-shadow: -1px -60px 1px 1px black inset;
   outline: 10px solid black;
-  text-decoration: none
-  
+  text-decoration: none;
+  padding-left: 11px;
+  padding-right: 1px;
   }
   
   .thunar scrolledwindow.standard-view {
@@ -260,6 +265,10 @@ Make sure that all changes made here are part of the Thunar application.
   padding: 4px; /* Padding */
 }
 
+.thunar treeview.view {
+  padding: 0px;
+}
+
 
 .thunar treeview header button:hover {
   color: #4c607a; /* Text color */
@@ -283,63 +292,21 @@ Make sure that all changes made here are part of the Thunar application.
   .thunar widget.view:selected:focus {
     background: linear-gradient(#dceafc #c6dffc); }
 
-.treeview {
-  font-family: tahoma;
-  font-weight: 1px;
-}
+  .thunar treeview {
+    -GtkTreeView-vertical-separator: 0;
+    outline-width: 1px;
+    outline-offset: 1px;
+    padding: 2px;
+    -gtk-icon-style: regular; }
+  
+  .thunar treeview.view {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+  }
 
-.caja-navigation-window > grid > paned > * {
-  border-top: 2px solid;
-  border-image: url("./thunar-assets/headerbox.png");
-  border-image-slice: 2 2 2 2
-}
-
-.thunar-sidebar .thunar-treeview,
-.thunar-sidebar .thunar-sidebar-title {
-  color: #000;
-  background-color: transparent;
-  font-weight: normal;
-  font-family: Tahoma;
-}
-
-.caja-side-pane scrolledwindow {
-  background-image: url("thunar-assets/wvleft.png");
-  background-position: left top;
-  background-repeat: no-repeat;
-}
-
-.caja-navigation-window toolbar {
-  padding: 2px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  color: grey;
-  background-color: grey;
-  border-top: 0px solid;
-  border-bottom: 0px solid;
-  border-right: 2px solid;
-  border-left: 7px solid;
-  border-image: url("thunar-assets/fm_toolbar.png");
-  border-image-slice: 2 2 2 7; }
-
-.caja-navigation-window paned > box > paned > box > .horizontal {
-  margin: -4px;
-  margin-bottom: -2px;
-  padding: 3px;
-  padding-top: 4px;
-  border-top: 0px solid;
-  border-bottom: 2px solid;
-  border-right: 2px solid;
-  border-left: 7px solid;
-  border-image: url("thunar-assets/fm_toolbar.png");
-  border-image-slice: 2 2 2 7; }
-
-.caja-navigation-window grid > paned > box > notebook widget > box {
-  padding: 1px;
-  border-color: black;
-  border: 1px solid darkslategray;
-  border-bottom: 1px solid gray;
-  border-right: 1px solid gray;
-  border-radius: 0px;
-  box-shadow: 1px 1px black inset, -1px -1px white inset; }
+  .thunar .frame, .thunar frame > border {
+    box-shadow: none;
+    background-color: white; }
+  
+ 

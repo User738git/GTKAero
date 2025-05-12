@@ -34,7 +34,9 @@ To disable inner borders:
 
 Go to Colours & Themes > Window Decorations and click on SMOD's "↻".
 
-Navigate to Window-Specific Overrides and ensure "hide window inner border" is marked.
+Navigate to Window-Specific Overrides and create an exception for Thunar.
+
+Mark "hide window inner border", "hide window caption" and "hide window icon".
 
 ### Font Configuration
 

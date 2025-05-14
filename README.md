@@ -71,6 +71,10 @@ Perhaps it might be possible to add such functionality in the future, but I am n
 
 If you are trying to find a Vista-variant of this project, check out [4194304's fork of this project](https://github.com/4194304/GTKVista).
 
+If you are struggling to get a permantent scrollbar, write this into "~/.config/gtk-3.0/settings.ini":
+
+```gtk-overlay-scrolling=true```
+
 ### Supported platforms:
 - Mainly KDE
 - Cinnamon

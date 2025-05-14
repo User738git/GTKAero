@@ -81,7 +81,7 @@ If you are trying to find a Vista-variant of this project, check out [4194304's 
 
 ### Bugs + issues
 - Some buttons might look strange.
-- Not yet possible to set the font in Thunar's sidebar headers to a normal (non-bold) style without modifying Thunar's source code. [See this discussion](https://forum.xfce.org/viewtopic.php?id=18246) for more details.
+- Not yet possible to set the font in Thunar's sidepane headers to a normal (non-bold) style without modifying Thunar's source code. [See this discussion](https://forum.xfce.org/viewtopic.php?id=18246) for more details.
 
 ### Forked code:
 - [Windows 7 GTK](https://github.com/B00merang-Project/Windows-7)

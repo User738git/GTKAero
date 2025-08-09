@@ -5,6 +5,11 @@
     color: #000000;
     background-color: rgba(240, 240, 240, 0.999); }
 
+<<<<<<< HEAD
+=======
+window {border-radius: 0}
+
+>>>>>>> 51bfb57 (Fixed janky buttons.)
 dnd {
   color: #000000; }
 

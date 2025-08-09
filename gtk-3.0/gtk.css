@@ -94,8 +94,11 @@ decoration {
   decoration:backdrop {
     transition: 200ms ease-out; }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 51bfb57 (Fixed janky buttons.)
 button:link > label, button:visited > label,
 *:link,
 button:link,
@@ -163,11 +166,17 @@ button:link, button:visited {
 
 button {
   padding: 0px;
+<<<<<<< HEAD
   border: 1px solid #898c95;
   border-right: 2px ridge #898c95;
   border-left: 2px groove #898c95;
   border-bottom:2px  ridge #898c95;
   border-radius: 3px 3px 3px 3px;
+=======
+  border: 1px solid #989898;
+  box-shadow: inset 0px 0px 0px 1px white;
+  border-radius: 3px;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   color: #000000;
   background-color: #F0F0F0;
   background-image: linear-gradient( #f2f2f2 45%, #ebebeb 45%, #cfcfcf);
@@ -193,14 +202,18 @@ button {
 
   button.text-button {
     padding: 1px 0px;
+<<<<<<< HEAD
     border-radius: 3px;
     border-left: 1px solid #898c95;
     box-shadow: inset 1px 1px 0px 0px white;
     border-bottom: 2px ridge #898c95;
+=======
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   }
 
   button.text-button:hover {
     border-left: 1px solid #898c95;
+<<<<<<< HEAD
     box-shadow: inset 1px 1px 0px 0px white;
   }
   
@@ -217,11 +230,40 @@ button {
     border: none;
   }
   
+=======
+    box-shadow: inset 0 0 0 1px white;
+  }
+
+  button.default, button.default:focus, button.text-button:focus  {
+  box-shadow: inset 0px 0px 2px 1px #6ae1fe;
+    border-radius: 3px;
+    border: 1px solid #3c7fb1;
+    border-bottom: 1px solid #bcdffa;
+    background: linear-gradient(#eaf6fd 49%, #bee6fd 44%, #a7d9f5)
+  }
+
+  button:focus  {
+    box-shadow: inset 0px 0px 2px 1px #6ae1fe;
+    padding: 0px 1px;
+    border-bottom: 1px solid #bcdffa;
+    border: 1px solid #3c7fb1;
+    background: linear-gradient(#eaf6fd 49%, #bee6fd 44%, #a7d9f5)
+  }
+
+  button.default label {
+    border: none;
+  }
+
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   button.text-button label {
     margin-left: 18px;
     margin-right: 18px
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   .dialog-action-box {
   margin-left: 20px;
   }
@@ -242,7 +284,11 @@ button {
     margin-right: 1px;
     margin-left: 190px;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   .dialog-action-area {
   padding: 2px;
   }
@@ -251,8 +297,11 @@ button {
     margin-right: 5px;
     margin-left: 5px;
    border: 1px solid #898c95;
+<<<<<<< HEAD
    border-right: 2px ridge #898c95;
    border-left: 2px groove #898c95;
+=======
+>>>>>>> 51bfb57 (Fixed janky buttons.)
    border-bottom:1px  outset #5f5f5f;
    border-radius: 3px;
  }
@@ -269,16 +318,25 @@ toolbutton {
   box-shadow: inset 0 0 0 5px alpha(white, 0.6); }
   button:hover {
     color: #000000;
+<<<<<<< HEAD
     border-color: #3c7fb1;
     border-right: 2px ridge #6a8fb9;
     border-left: 2px groove #6a8fb9;
     border-bottom:2px  ridge #6a8fb9;
+=======
+    border: 1px solid #3c7fb1;
+    box-shadow: inset 0px 0px 0px 1px white;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
     background-color: shade(#CCE8FF, 1.02);
     background-image: linear-gradient(to bottom, #eaf6fd 45%, #bee6fd 45%); }
   button:active, button:checked {
     color: #000000;
     border-color: shade(#CCE8FF, 0.6);
+<<<<<<< HEAD
     border-bottom:1px  outset #2b5170;
+=======
+    border-bottom:1px  solid #457dac;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
     background-color: shade(#CCE8FF, 0.95);
     background-image: linear-gradient(to bottom, shade(#CCE8FF, 1.07), shade(#CCE8FF, 0.95) 50%, shade(#CCE8FF, 0.9) 51%); }
     button:active:backdrop, button:checked:backdrop {
@@ -1313,15 +1371,30 @@ filechooserbutton:drop(active) {
   caret-color: #CCE8FF; }
 
   combobox box button {
+<<<<<<< HEAD
     border-left: 2px #979797 groove;
     border-right: 2px #979797 ridge;
+=======
+    border-left: 2px #989898 groove;
+    border-right: 2px #989898 ridge;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
     }
 
     button.combo {
       box-shadow: inset 1px 0px #ffffff, inset -1px -1px #ffffff ;
+<<<<<<< HEAD
       border-left: 2px #979797 solid;
       border-right: 2px #979797 solid;
       border-bottom: 2px #979797 solid;
+=======
+      border: 1px solid #989898;
+  }
+
+  button.combo:focus  {
+    box-shadow: inset 0px 0px 2px 1px #6ae1fe;
+    border: 1px solid #3c7fb1;
+    background: linear-gradient(#eaf6fd 49%, #bee6fd 44%, #a7d9f5)
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   }
 
 .background.csd.popup menuitem label {
@@ -1339,7 +1412,11 @@ filechooserbutton:drop(active) {
   margin-bottom: 1px;
   margin-left: 1px
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 51bfb57 (Fixed janky buttons.)
 .background.csd.popup menuitem:hover label {
   box-shadow: none;
   padding-left: 5px;
@@ -1362,6 +1439,10 @@ filechooserbutton:drop(active) {
   }
 
 menu, .menu {
+<<<<<<< HEAD
+=======
+  min-height: 200px;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   margin: 4px;
   padding: 0;
   border-radius: 0px;
@@ -1410,6 +1491,10 @@ menubar > menuitem, .menubar > menuitem {
     background-color: #CCE8FF;
     border-color: shade(#CCE8FF, 0.9);
     border-radius: 3px;
+<<<<<<< HEAD
+=======
+    border: 1px solid;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
     background-color: shade(#CCE8FF, 1.12);
     background-image: linear-gradient(to bottom, shade(#CCE8FF, 1.06), shade(#CCE8FF, 1.02)); }
   menubar > menuitem:disabled, .menubar > menuitem:disabled {
@@ -1420,15 +1505,25 @@ menubar > menuitem, .menubar > menuitem {
     background-color: transparent; }
 
 menu menuitem, .menu menuitem {
+<<<<<<< HEAD
   min-height: 16px;
   min-width: 40px;
   padding: 1px;
   margin: 1px;
   border: 1px solid transparent;
+=======
+  border: 2px solid transparent;
+  margin: -1px;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   border-radius: 0;
   color: #000000;
   background-color: #F0F0F0; }
   menu menuitem:hover, .menu menuitem:hover {
+<<<<<<< HEAD
+=======
+    border: 1px solid;
+    padding: 1px;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
     color: #000000;
     border-color: shade(#CCE8FF, 0.9);
     border-radius: 3px;
@@ -1436,9 +1531,13 @@ menu menuitem, .menu menuitem {
     background-image: linear-gradient(to bottom, shade(#CCE8FF, 1.06), shade(#CCE8FF, 1.02)); }
   menu menuitem:disabled, .menu menuitem:disabled {
     color: mix(#000000, #F0F0F0, 0.5); }
+<<<<<<< HEAD
   menu menuitem arrow, .menu menuitem arrow {
     min-width: 16px;
     min-height: 16px; }
+=======
+  menu menuitem arrow, .menu menuitem arrow { }
+>>>>>>> 51bfb57 (Fixed janky buttons.)
     menu menuitem arrow:dir(ltr), .menu menuitem arrow:dir(ltr) {
       margin-left: 0px;
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
@@ -1447,6 +1546,10 @@ menu menuitem, .menu menuitem {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl"); }
 
 menuitem accelerator {
+<<<<<<< HEAD
+=======
+  min-height: 1px;
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   color: alpha(currentColor, 0.55); }
   menuitem accelerator:hover {
     color: alpha(#000000, 0.8); }
@@ -1639,7 +1742,11 @@ modelbutton.flat, menuitem.button.flat, .menuitem.button.flat {
           color: shade(#000000, 0.8); }
         notebook > header > tabs > arrow:disabled {
           color: shade(#F0F0F0, 0.6); }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 51bfb57 (Fixed janky buttons.)
 
 paned > separator {
   border: none;
@@ -1943,7 +2050,11 @@ scale {
 
 scrollbar {
   border: none;
+<<<<<<< HEAD
   background-color: shade(#F0F0F0, 0.9); 
+=======
+  background-color: shade(#F0F0F0, 0.9);
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   margin: 0;
   margin-left: -3px;
 }
@@ -2443,6 +2554,7 @@ toolbar {
     .inline-toolbar toolbutton > button:backdrop {
       color: #000000; }
 
+<<<<<<< HEAD
 .linked button, .linked .raised button, .primary-toolbar .linked button, .primary-toolbar .linked .raised button {
   border-radius: 0;
   border-left-width: 0; }
@@ -2475,6 +2587,8 @@ toolbar {
   .linked entry:only-child, .primary-toolbar .linked entry:only-child {
     border-width: 1px;
     border-radius: 2px; }
+=======
+>>>>>>> 51bfb57 (Fixed janky buttons.)
 .linked combobox box.linked button, .primary-toolbar .linked combobox box.linked button {
   border-radius: 0;
   border-left-width: 0; }
@@ -2603,6 +2717,7 @@ toolbar.inline-toolbar toolbutton:only-child > button.flat, toolbar.inline-toolb
   border-width: 1px;
   border-radius: 3px; }
 
+<<<<<<< HEAD
 .linked button:focus, .linked button:hover, .linked button:active, .linked button:checked, .linked .raised button:focus, .linked .raised button:hover, .linked .raised button:active, .linked .raised button:checked {
   box-shadow: -1px 0 shade(#CCE8FF, 0.6); }
   .linked button:focus:backdrop, .linked button:hover:backdrop, .linked button:active:backdrop, .linked button:checked:backdrop, .linked .raised button:focus:backdrop, .linked .raised button:hover:backdrop, .linked .raised button:active:backdrop, .linked .raised button:checked:backdrop {
@@ -2636,6 +2751,8 @@ toolbar.inline-toolbar toolbutton:only-child > button.flat, toolbar.inline-toolb
   .linked.vertical combobox:first-child box.linked button:focus:backdrop, .linked.vertical combobox:first-child box.linked button:hover:backdrop, .linked.vertical combobox:first-child box.linked button:active:backdrop, .linked.vertical combobox:first-child box.linked button:checked:backdrop, .linked.vertical combobox:only-child box.linked button:focus:backdrop, .linked.vertical combobox:only-child box.linked button:hover:backdrop, .linked.vertical combobox:only-child box.linked button:active:backdrop, .linked.vertical combobox:only-child box.linked button:checked:backdrop {
     box-shadow: none; }
 
+=======
+>>>>>>> 51bfb57 (Fixed janky buttons.)
 stackswitcher button.text-button {
   min-width: 80px; }
 
@@ -2840,7 +2957,11 @@ headerbar button.suggested-action {
     background-image: linear-gradient(to bottom, mix(shade(#F0F0F0, 1.12), #88E1FC, 0.15), mix(shade(#F0F0F0, 1.08), #88E1FC, 0.15), mix(#F0F0F0, #88E1FC, 0.15) 50%, mix(shade(#F0F0F0, 0.95), #88E1FC, 0.15) 51%); }
 
 toolbar.selection-mode {
+<<<<<<< HEAD
   padding: 4px; }
+=======
+  padding: 0px; }
+>>>>>>> 51bfb57 (Fixed janky buttons.)
 
 headerbar.selection-mode, toolbar.selection-mode {
   border-color: mix(#CCE8FF, #000000, 0.6);
@@ -2894,9 +3015,15 @@ decoration {
     border-radius: 0; }
   .popup decoration {
     box-shadow: none; }
+<<<<<<< HEAD
   .csd.popup decoration {
     border-radius: 0px;
     box-shadow: 0 0 0 3px #979797, 0 0 0 2px #f1f1f1; }
+=======
+    .csd.popup decoration {
+  border-radius: 0px;
+  box-shadow: 0 0 0 1px #979797 }
+>>>>>>> 51bfb57 (Fixed janky buttons.)
   .ssd decoration {
     border-radius: 3px 3px 0 0;
     box-shadow: inset 0 0 0 6px black, 0 0 0 1px #979797; }

@@ -34,7 +34,9 @@ To disable inner borders:
 
 Go to Colours & Themes > Window Decorations and click on SMOD's "↻".
 
-Navigate to Window-Specific Overrides and ensure "hide window inner border" is marked.
+Navigate to Window-Specific Overrides and create an exception for Thunar.
+
+Mark "hide window inner border", "hide window caption" and "hide window icon".
 
 ### Font Configuration
 
@@ -69,6 +71,10 @@ Perhaps it might be possible to add such functionality in the future, but I am n
 
 If you are trying to find a Vista-variant of this project, check out [4194304's fork of this project](https://github.com/4194304/GTKVista).
 
+If you are struggling to get a permantent scrollbar, write this into "~/.config/gtk-3.0/settings.ini":
+
+```gtk-overlay-scrolling=true```
+
 ### Supported platforms:
 - Mainly KDE
 - Cinnamon
@@ -79,7 +85,7 @@ If you are trying to find a Vista-variant of this project, check out [4194304's 
 
 ### Bugs + issues
 - Some buttons might look strange.
-- Not yet possible to set the font in Thunar's sidebar headers to a normal (non-bold) style without modifying Thunar's source code. [See this discussion](https://forum.xfce.org/viewtopic.php?id=18246) for more details.
+- Not yet possible to set the font in Thunar's sidepane headers to a normal (non-bold) style without modifying Thunar's source code. [See this discussion](https://forum.xfce.org/viewtopic.php?id=18246) for more details.
 
 ### Forked code:
 - [Windows 7 GTK](https://github.com/B00merang-Project/Windows-7)

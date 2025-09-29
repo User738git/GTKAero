@@ -76,7 +76,6 @@ Make sure that all changes made here are part of the Thunar application.
 
  .thunar toolbutton .toggle {
   margin-left: 2px;
-
  }
 
 .thunar entry {
@@ -96,6 +95,8 @@ Make sure that all changes made here are part of the Thunar application.
   margin-right: -6px;
   margin-left: 8px;
 }
+
+
 
 .thunar stack {
   border-right: 2px groove #70737a;

@@ -13,6 +13,8 @@
   -GtkDialog-button-spacing: 4;
   -GtkDialog-action-area-border: 0;
   -GtkTreeview-expander-size: 8;
+  -Gtk-overlay-scrolling: true;l
+
   background-clip: padding-box;
   outline-width: 1px;
   outline-offset: -3px;

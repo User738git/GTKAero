@@ -1,4 +1,4 @@
-# GTKAero
+# GTKAero-Vista
 A fork of B00MERANG Project's Windows 7 GTK theme made to integrate better with [aerothemeplasma](https://gitgud.io/wackyideas/aerothemeplasma/). Also makes thunar look more Windows 7's explorer.\
 <img src="screenshots/save.png" alt="Desktop"/>\
 A picture of thunar with this theme and icon theme.
@@ -68,8 +68,6 @@ I would also recommend gvfs for better drive functionality:
 ### Note:
 The commandbar is only a texture and is not clickable in any way. 
 Perhaps it might be possible to add such functionality in the future, but I am not considering it now.
-
-If you are trying to find a Vista-variant of this project, check out [4194304's fork of this project](https://github.com/4194304/GTKVista).
 
 If you are struggling to get a permantent scrollbar, write this into "~/.config/gtk-3.0/settings.ini":
 

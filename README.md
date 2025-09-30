@@ -1,5 +1,5 @@
 # GTKAero-Vista
-A fork of B00MERANG Project's Windows 7 GTK theme made to integrate better with [VistaThemePlasma](https://gitgud.io/catpswin56/vistathemeplasma). Also makes thunar look more Windows Vista's explorer.\
+A fork of B00MERANG Project's Windows 7 GTK theme made to integrate better with [VistaThemePlasma](https://gitgud.io/catpswin56/vistathemeplasma). Also makes thunar look more Windows Vista's explorer. \
 <img src="screenshots/save-vista.png" alt="Desktop"/>\
 A picture of thunar with this theme and icon theme.
 
@@ -12,7 +12,7 @@ Place this repository in your "themes" folder:
 
 Enable the theme in "Application style > Configure Gnome/GTK Application style" in KDE's System Settings.
 
-Extract VistaIcons.tar.gz to ~/.local/share/icons/: without merging anything.\
+Extract VistaIcons.tar.gz to ~/.local/share/icons/: without merging anything. \
 
 Enable the icon theme in settings (called AeroIcons).
 

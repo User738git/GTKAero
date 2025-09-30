@@ -69,7 +69,7 @@ I would also recommend gvfs for better drive functionality:
 The commandbar is only a texture and is not clickable in any way. 
 Perhaps it might be possible to add such functionality in the future, but I am not considering it now.
 
-If you are trying to find a Vista-variant of this project, check out [4194304's fork of this project](https://github.com/4194304/GTKVista).
+If you are trying to find a Vista-variant of this project, check out [the Vista branch](https://github.com/User738git/GTKAero/tree/vista).
 
 If you are struggling to get a permantent scrollbar, write this into "~/.config/gtk-3.0/settings.ini":
 

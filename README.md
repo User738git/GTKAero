@@ -8,7 +8,7 @@ To install the theme, follow these steps:
 
 Place this repository in your "themes" folder:
 
-```cp -r . ~/.local/share/themes/GTKAero```
+```cp -r . ~/.local/share/themes/GTKAero-Vista```
 
 Enable the theme in "Application style > Configure Gnome/GTK Application style" in KDE's System Settings.
 

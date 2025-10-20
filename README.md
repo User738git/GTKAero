@@ -84,7 +84,7 @@ If you are struggling to get a permantent scrollbar, write this into "~/.config/
 - Other GTK-based DEs.
 
 ### Bugs + issues
-- Some buttons might look strange.
+- Some buttons might look strange. This might be because of how GTK handles buttons and such.
 - Not yet possible to set the font in Thunar's sidepane headers to a normal (non-bold) style without modifying Thunar's source code. [See this discussion](https://forum.xfce.org/viewtopic.php?id=18246) for more details.
 
 ### Forked code:

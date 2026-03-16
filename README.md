@@ -78,7 +78,7 @@ If you are struggling to get a permantent scrollbar, write this into "~/.config/
 ### Supported platforms:
 - Mainly KDE
 - Other GTK-based DEs.
-- Don't expect the theme to work on other DEs.
+- (Don't expect the theme to work on other GTK-based DEs).
 
 ### Bugs + issues
 - Some buttons might look strange. This might be because of how GTK handles buttons and such.

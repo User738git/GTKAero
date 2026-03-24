@@ -57,13 +57,13 @@ Uncheck the "statusbar" and "menubar" (or press "Ctrl" + "M").
 
 ### Optional: Picture Thumbnail Functionality + Better partition integration
 
-If you miss image thumbnail functionality like in Dolphin, install tumbler using the following command:
+If you miss image thumbnail functionality like in Dolphin (and audio properties), install tumbler using the following command:
 
-```sudo pacman -S tumbler```
+```sudo pacman -S tumbler thunar-media-tags-plugin```
 
-I would also recommend gvfs for better drive functionality:
+I would also recommend gvfs and mtpfs for better drive functionality:
 
-```sudo pacman -S gvfs```
+```sudo pacman -S gvfs mtpfs```
 
 ### Note:
 The commandbar is only a texture and is not clickable in any way. 
